@@ -1,0 +1,78 @@
+{
+  "name": "@x.render/render-lint",
+  "version": "1.0.1",
+  "description": "A lintflow, a one-stop code verification environment setup that supports ESLint, Stylelint, Prettier, and Commitlint.",
+  "main": "lib/index.js",
+  "bin": {
+    "render-lint": "./lib/bin/index.js"
+  },
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "lib",
+    "lintToolConfig",
+    "./render-lint.ts"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "lint",
+    "render-lint",
+    "lintflow",
+    "lint-staged",
+    "eslint",
+    "prettier",
+    "stylelint",
+    "commitlint"
+  ],
+  "author": "render",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^8.43.0",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.8",
+    "stylelint": "^13.7.2",
+    "stylelint-scss": "^3.18.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.40.2",
+    "@types/fs-extra": "^11.0.3",
+    "@types/inquirer": "^9.0.6",
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.10.3",
+    "@types/require-all": "^3.0.3",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/eslint-parser": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@commitlint/cli": "^17.6.6",
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "@typescript-eslint/parser": "^5.60.0",
+    "@x.render/render-command": "^1.0.0",
+    "@x.render/render-node-utils": "1.0.0",
+    "chalk": "4.1.2",
+    "conventional-changelog-conventionalcommits": "^6.1.0",
+    "eslint": "^8.43.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "fs-extra": "^11.1.1",
+    "husky": "^8.0.3",
+    "inquirer": "^8.2.5",
+    "lint-staged": "^15.0.2",
+    "lodash": "^4.17.21",
+    "mocha": "^10.2.0",
+    "prettier": "^2.8.8",
+    "require-all": "^3.0.0",
+    "stylelint": "^13.7.2",
+    "stylelint-scss": "^3.18.0"
+  }
+}
