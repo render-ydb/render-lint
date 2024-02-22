@@ -4,6 +4,7 @@
 
 ## Introduce
 
+<a href="https://www.npmjs.com/package/@x.render/render-lint" target="__blank"><img src="https://img.shields.io/npm/v/@x.render/render-lint?color=a1b858&label=" alt="NPM version"></a>
 A lintflow, a one-stop code verification environment setup that supports ESLint, Stylelint, Prettier, and Commitlint.
 
 there is no need for cumbersome configuration, and various verification tools are ready to use out of the box, which reduces complicated configuration and improves the time for project engineering to take shape.
@@ -201,3 +202,20 @@ currently, getCommitlintConfig supports the acquisition of `common` and `react` 
     // Custom rules have a higher priority than the internal rules in render-lint.
   });
   ```
+
+  - Q2: The internal rules in render-lint do not meet my current needs. How should I use custom configuration?
+  - A1: Here is an example of modifying the configuration of eslint:
+
+  ```javascript
+  const { getESLintConfig } = require("@x.render/render-lint");
+
+  module.exports = getESLintConfig("react-ts", {
+    // 自定义规则的优先级高于 render-lint 中的内部规则。
+    rules: {
+      "no-console": "off",
+      "@typescript-eslint/no-unused-vars": "off",
+    },
+  });
+  ```
+
+  In short, how did you modify the configuration of eslint, stylelint, etc. before? If you modify it like this now, render-lint does not do other magic things.
