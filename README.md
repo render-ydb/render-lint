@@ -5,6 +5,7 @@
 ## Introduce
 
 <a href="https://www.npmjs.com/package/@x.render/render-lint" target="__blank"><img src="https://img.shields.io/npm/v/@x.render/render-lint?color=a1b858&label=" alt="NPM version"></a>
+<br/>
 A lintflow, a one-stop code verification environment setup that supports ESLint, Stylelint, Prettier, and Commitlint.
 
 there is no need for cumbersome configuration, and various verification tools are ready to use out of the box, which reduces complicated configuration and improves the time for project engineering to take shape.
