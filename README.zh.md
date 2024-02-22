@@ -1,8 +1,8 @@
 # render-lint
 
-[中文文档](./README.zh.md)
+[英文文档](./README.md)
 
-## Introduce
+## 介绍
 
 A lintflow, a one-stop code verification environment setup that supports ESLint, Stylelint, Prettier, and Commitlint.
 
