@@ -1,11 +1,17 @@
 # render-lint
 
+<p>
+<a href="https://www.npmjs.com/package/@x.render/render-lint" target="__blank"><img src="https://img.shields.io/npm/v/@x.render/render-lint" alt="NPM version"></a>
+
+<a href="https://www.npmjs.com/package/@x.render/render-lint" target="__blank"><img src="https://img.shields.io/npm/dw/%40x.render%2Frender-lint
+" alt="NPM Downloads"></a>
+
+</p>
+
 [英文文档](./README.md)
 
 ## 介绍
 
-<a href="https://www.npmjs.com/package/@x.render/render-lint" target="__blank"><img src="https://img.shields.io/npm/v/@x.render/render-lint?color=a1b858&label=" alt="NPM version"></a>
-<br/>
 一种 lintflow，一站式代码验证环境设置，支持 ESLint、Stylelint、Prettier 和 Commitlint。
 
 无需繁琐的配置，各种验证工具开箱即用，减少了复杂的配置，提高了项目工程成型的时间。
