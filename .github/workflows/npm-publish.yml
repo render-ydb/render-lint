@@ -16,7 +16,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm install
+      - run: echo 'hello'
+      - run: npm i
 
   publish-npm:
     needs: install
