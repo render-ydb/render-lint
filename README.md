@@ -219,7 +219,7 @@ currently, getCommitlintConfig supports the acquisition of `common` and `react` 
   const { getESLintConfig } = require("@x.render/render-lint");
 
   module.exports = getESLintConfig("react-ts", {
-    // 自定义规则的优先级高于 render-lint 中的内部规则。
+    // Custom rules have a higher priority than the internal rules in render-lint.
     rules: {
       "no-console": "off",
       "@typescript-eslint/no-unused-vars": "off",
