@@ -1,6 +1,6 @@
 {
   "name": "@x.render/render-lint",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A lintflow, a one-stop code verification environment setup that supports ESLint, Stylelint, Prettier, and Commitlint.",
   "main": "lib/index.js",
   "bin": {
