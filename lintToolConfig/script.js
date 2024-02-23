@@ -29,7 +29,6 @@ const getScipts = (tools = []) => {
         const scriptValue = scriptKeys.map(key => `npm run ${key}`).join(" && ");
         scripts["prepare"] = 'npx render-lint init  --force';
         scripts["render-lint-fix"] = scriptValue;
-        scripts["render-lint-eject"] = "npx render-lint eject";
     }
     return {
         scripts,
