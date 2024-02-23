@@ -3,8 +3,7 @@
 <p>
 <a href="https://www.npmjs.com/package/@x.render/render-lint" target="__blank"><img src="https://img.shields.io/npm/v/@x.render/render-lint" alt="NPM version"></a>
 
-<a href="https://www.npmjs.com/package/@x.render/render-lint" target="__blank"><img src="https://img.shields.io/npm/dw/@x.render/render-lint
-" alt="NPM Downloads"></a>
+<a href="https://www.npmjs.com/package/@x.render/render-lint" target="__blank"><img src="https://img.shields.io/npm/dm/%40x.render%2Frender-lint" alt="NPM Downloads" /></a>
 
 </p>
 
